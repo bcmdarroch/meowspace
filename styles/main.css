@@ -1,0 +1,29 @@
+
+/* width applies to border + padding + content, not just content */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  height: 20%;
+  width: 80%;
+}
+
+/* use these at least once:
+Inline Block display
+Floats
+Fixed Positioning (With the top header)
+
+Add custom styling:
+At least one google font
+At least one pseudo selector (like hover)
+Background color on one section
+Identify repeated styles and use CSS selectors and class/id names to organize and DRY your code.
+
+/* try parallax banner!
+try animating h1 elements to fade in on page load
+create a new page for one of the articles (create wireframe, content/structure with HTML, style with CSS to match wireframe) */
