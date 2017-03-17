@@ -26,7 +26,7 @@ body {
   /*padding: 0 5%;*/
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: 'Fugaz One', cursive;
   padding: 0 5%;
 }
@@ -135,10 +135,6 @@ section:nth-of-type(3) {
   max-height: 40%;
 }
 
-/*section:nth-of-type(3) h2 {
-  width: 275px;
-}*/
-
 section:nth-of-type(3) h2, section:nth-of-type(3) p {
   padding: 0;
   float: left;
@@ -177,24 +173,31 @@ footer a {
   color: slategray;
 }
 
-footer p {
-  display: inline-block;
+h4 {
+  float:left;
+  display: inline;
+  padding-right: 2%;
+}
+
+footer {
+  padding: 0 15%;
+  clear: both;
+}
+
+#disclaimer {
+  display: inline;
+  padding: 0;
+  float: left;
+  clear: both;
   max-width: 48%;
 }
 
 footer nav {
-  display: inline-block;
-  float: right;
-  clear: both;
-}
-
-footer ul {
-  padding-right: 20%;
-  /*margin: 0;*/
-}
-
-footer li {
-  padding-right: 10%;
+  float: left;
+  max-height: 50%;
+  max-width: 48%;
+  position: relative;
+  bottom: 50px;
 }
 
 /* use these at least once:
